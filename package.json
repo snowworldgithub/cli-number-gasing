@@ -1,15 +1,19 @@
 {
-  "name": "excercise_2",
-  "version": "1.0.0",
-  "description": "",
+  "name": "679snowworldclinumberguessinggame",
+  "version": "1.0.1",
+  "description": "cli gase number",
   "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
   "devDependencies": {
-    "@types/node": "^20.11.17"
+    "@types/inquirer": "^9.0.7"
   }
 }
